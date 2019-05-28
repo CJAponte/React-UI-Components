@@ -1,1 +1,36 @@
 /* All styles for your Card Components live here */
+
+
+
+/* CARD CONTAINER*/
+
+.Card-Container{
+    max-width: 580px;
+    border: 1px solid lightgrey;
+}
+
+
+/* CARD BANNER*/
+
+.Card-Banner{
+    max-width: 580px;
+}
+
+
+/* CARD CONTENT*/
+
+.Card-Content{
+    padding-left: 15px;
+}
+
+.Card-Content h1 {
+    font-size: 16px;   
+}
+
+.Card-Content p {
+    font-size: 16px;
+}
+
+.Card-Content .Text-Site {
+    color: grey;
+}
