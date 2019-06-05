@@ -1,7 +1,8 @@
 import React from 'react';
 import './Button.css';
 
-class ActionButton extends React.Component {
+
+class FunctionButton extends React.Component {
     constructor () {
         super()
         this.state={}
@@ -21,5 +22,4 @@ class ActionButton extends React.Component {
     }
 }
 
-
-export default ActionButton;
+export default FunctionButton;

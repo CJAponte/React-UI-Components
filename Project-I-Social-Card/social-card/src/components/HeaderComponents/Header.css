@@ -1,1 +1,52 @@
 /* All styles for your header Components live here */
+
+
+/* HEADER TITLE*/
+.Header-Title{
+    max-width: 550px;;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -15px;
+}
+
+
+.Header-Title h1{
+    font-size: 18px;
+    margin: auto auto;
+    margin-right: 15px;
+}
+
+
+.Header-Title .Handler{
+    color: grey;
+    margin-right: 15px;
+}
+
+.Header-Title .Date{
+    color: grey;
+    margin-right: 15px;
+}
+
+
+/* HEADER CONTENT*/
+
+.Header-Text{
+    max-width: 555px;
+    margin-top: 10px;
+}
+
+
+/* HEADER THUMBNAIL*/
+
+.Image-Thumbnail{
+    max-width: 60px;
+    margin-top: 15px;
+}
+
+/* HEADER CONTAINER*/
+
+.Header-Container .Header-Grid-Container{
+    display: grid;
+    grid-template-columns: 4% 96%;
+}

@@ -1,0 +1,28 @@
+
+
+.Footer-Container{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 550px;
+    margin-left: 42px;
+    margin-top: 15px;
+}
+
+.Footer-Container .Icon-Container{
+    display: inline-flex;
+    flex-direction: row;
+    max-height: 36px;
+    margin: auto 25px;
+    cursor: pointer;
+}
+
+.Footer-Container .Icon-Container img{
+    /* margin: auto 10px; */
+}
+
+.Footer-Container .Icon-Container p{
+    color: grey;
+    margin-top: 10px;
+    margin-left: -2px;
+}
